@@ -23,12 +23,12 @@ h2 {
 h3 {
     font-size: 1.2rem;
     font-weight: 600;
-    margin: 1rem
+    margin: 1rem 0rem;
 }
 
 p {
     font-size: 0.9rem;
-    margin: 1.5rem;
+    margin-top: 1.5rem;
     line-height: 1.5rem;
     color: #353535;
 }

@@ -4,42 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fernando Gonzalez">
-    <meta name="description" content="Mi portafolio">
+    <meta name="description" content="Mi Portafolio">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/portafolio-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Portafolio | Fernando González Díaz</title>
 </head>
 <body>
-    <header>
-        <h1>Portafolio</h1>
-        <h3>Fernando Enrique González Díaz</h3>
+    <header class="home-header">
+        <div>
+            <img class="profile-img" src="./assets/images/Foto_Fernando-Gonzalez-Diaz.jpg" alt="Foto CV de Fernando González Díaz">
+        </div> 
+        <div class="title">
+            <h1>Mi portafolio</h1>
+            <h2>Fernando González Díaz</h2>
+        </div>
     </header>
-    <main>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Captura</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Curriculum Vitae</td>
-                    <td>
-                        <img style="max-width: 450px;" src="/assets/images/Foto_CV_Fernando.png" alt="Imagen Curriculum Fernando González Díaz">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Proyecto 2</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Proyecto 3</td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+    <nav class="nav-bar">
+        <a href="./">Inicio</a>
+        <a href="/portafolio.html">Portafolio</a>
+        <a href="https://www.linkedin.com/in/fernando-hallerjack/" target="_blank">LinkedIn</a>
+        <a href="https://www.behance.net/hallerjack_" target="_blank">Behance</a>
+    </nav>
+    <main class="port-main">
+        <div class="box">
+            <div class="box-img">
+                <img class="img" src="https://placehold.co/1280x720?text=Iguana+Page" alt="Imagen portada Iguana Page">
+            </div>
+            <div class="text-box">
+                <h3>Iguana Page</h3>
+                <p>Proyecto desarrollado para Desafío Latam. Módulo 1 de la carrera Desarrollo Full Stack JavaScript.</p>
+                <button class="boton" href="" target="_blank">Ver más</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img class="img" src="https://placehold.co/1280x720?text=Cuppon+Page" alt="Imagen portada Cuppon Page">
+            </div>
+            <div class="text-box">
+                <h3>Cuppon Page</h3>
+                <p>Proyecto desarrollado para Desafío Latam. Módulo 1 de la carrera Desarrollo Full Stack JavaScript.</p>
+                <button class="boton" href="" target="_blank">Ver más</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img class="img" src="https://placehold.co/1280x720?text=Hallerjack+Page" alt="Imagen portada Hallerjack's Page">
+            </div>
+            <div class="text-box">
+                <h3>Hallerjack's Website</h3>
+                <p>Proyecto desarrollado para Desafío Latam. Módulo 1 de la carrera Desarrollo Full Stack JavaScript.</p>
+                <button class="boton" href="" target="_blank">Ver más</button>
+            </div>
+        </div>
     </main>
-    <footer style="margin-top: 30px;">
-        <a href="/">Volver</a>
+    <footer class="footer">
+        <p>Fernando González Díaz | 2025</p>
     </footer>
 </body>
 </html>

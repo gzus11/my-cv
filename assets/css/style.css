@@ -54,7 +54,7 @@ a {
     flex-wrap: wrap;
     gap: 40px;
     padding: 3em;
-    background-image: url("https://thewebsite.cl/wp-content/uploads/2025/11/back_header.jpg");
+    background-image: url(../images/back_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

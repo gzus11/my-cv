@@ -5,84 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fernando Gonzalez">
     <meta name="description" content="Mi Curriculum Vitae">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Curriculum Vitae | Fernando González Díaz</title>
 </head>
 <body>
-    <header>
-        <h1>Curriculum Vitae</h1>
-        <img style="max-width: 250px;" src="/assets/images/Foto_Fernando-Gonzalez-Diaz.jpg" alt="Foto CV de Fernando González Díaz">
-        <h2>Fernando González Díaz</h2>
+    <header class="home-header">
+        <div>
+            <img class="profile-img" src="./assets/images/Foto_Fernando-Gonzalez-Diaz.jpg" alt="Foto CV de Fernando González Díaz">
+        </div> 
+        <div class="title">
+            <h1>Fernando González Díaz</h1>
+            <h2>Diseñador web / Desarrollador Front-End</h2>
+        </div>
     </header>
-    <main>
-        <h3>Resumen</h3>
-        <p>Diseñador gráfico con más de 10 años de experiencia en soluciones digitales, gráficas y de marketing. Especializado en el diseño de interfaces centradas en el usuario, diseño web con tecnologías modernas y gestión de proyectos creativos.</p>
-        <p>Actualmente enfocado en Desarrollo Front End, optimización de experiencia de usuario (UX) y generación de impacto en la presencia digital de marcas.</p>
-
-        <h3>Datos Personales</h3>
-        <ul>
-            <li>Nombre: Fernando Enrique González Díaz.</li>
-            <li>Lugar de Nacimiento: Santiago de Chile.</li>
-            <li>Fecha de Nacimiento: 23 de abril de 1990.</li>
-            <li>Residencia: Providencia, Santiago de Chile.</li>
-        </ul>
-        
-        <h3>Experiencia</h3>
-        <ol>
-            <li>Invitaciones | The Website - Diseñador UX/UI y Diseñador web (2024 - Presente)</li>
-            <li>The Website.cl - Diseñador UX/UI y Diseñador web (2015 - Presente)</li>
-            <li>Nibiru Artistic Company - Traductor Audiovisual para Streaming & TV (2023 - 2024)</li>
-            <li>Super Cell | Kaos Latin Gamers | Azules Esports - Diseñador Gráfico Esports (2018 - 2022)</li>
-            <li>Universidad UNIACC - Profesor de práctica instrumental en Taller de fundamentos del Rock, Escuela de Música & Sonido (2014 - 2015)</li>
-        </ol>
-
-        <h3>Formación</h3>
-        <ol>
-            <li>Desarrollo Front End - Desafío Latam / Santiago, 2026 (cursando)</li>
-            <li>Fundamentos de Python - Santander Open Academy / Santiago, 2025.</li>
-            <li>Magister en Filosofía de la Ciencia - La Akademia / Santiago, 2017</li>
-            <li>Música & Sonido con mención en Composición - Universidad UNIACC / Santiago, 2015.</li>
-            <li>Técnico en Diseñador Gráfico - INACAP / Santiago, 2010.</li>
-            <li>Enseñanza Media - Colegio Alicante Maipú / Santiago, 2007.</li>
-            <li>Enseñanza Básica - Colegio Chileno Árabe / Concepción, 2003.</li>
-        </ol>
-
-        <h3>Habilidades técnicas</h3>
-        <ul>
-            <li>Adobe Creative Suite - Figma</li>
-            <li>Wordpress - Elementor - Cpanel</li>
-            <li>Google Ads - Google Analytics - Google Tag Manager</li>
-            <li>Excel - Word</li>
-        </ul>
-        
-        <h3>Habilidades blandas</h3>
-        <ul>
-            <li>Liderazgo creativo</li>
-            <li>Comunicación efectiva</li>
-            <li>Resolución de problemas</li>
-            <li>Trabajo colaborativo</li>
-            <li>Pensamiento estratégico</li>
-        </ul>
-
-        <h3>Idiomas</h3>
-        <ul>
-            <li>Español nativo</li>
-            <li>Inglés avanzado (escrito y hablado)</li>
-        </ul>
-
-        <h3>Contacto</h3>
-        <ul>
-            <li>Email: fernandoegd@gmail.com</li>
-            <li>Teléfono: +569 5126 8612</li>
-        </ul>
-        
-    </main>
-    <footer>
-        <h3>Enlaces</h3>
+    <nav class="nav-bar">
         <a href="/portafolio.html">Portafolio</a>
-        </br>
         <a href="https://www.linkedin.com/in/fernando-hallerjack/" target="_blank">LinkedIn</a>
-        </br>
         <a href="https://www.behance.net/hallerjack_" target="_blank">Behance</a>
+    </nav>
+    <main class="main">
+        <section class="colum-1">
+            <div class="info-box">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>Nombre:<br>Fernando Enrique González Díaz.</li>
+                    <li>Lugar de Nacimiento:<br>Santiago de Chile.</li>
+                    <li>Fecha de Nacimiento:<br>23 de abril de 1990.</li>
+                    <li>Residencia:<br>Providencia, Santiago de Chile.</li>
+                </ul>
+            </div>
+            <div class="info-box">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Español nativo</li>
+                    <li>Inglés avanzado (escrito y hablado)</li>
+                </ul>
+            </div>
+            <div class="info-box">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Email: fernandoegd@gmail.com</li>
+                    <li>Teléfono: +569 5126 8612</li>
+                </ul>
+            </div>
+        </section>
+        <section class="colum-2">
+            <div class="info-box">
+                <h3>Acerca de mí</h3>
+                <p>Diseñador gráfico con más de 10 años de experiencia en soluciones digitales, gráficas y de marketing. Especializado en el diseño de interfaces centradas en el usuario, diseño web con tecnologías modernas y gestión de proyectos creativos.</p>
+                <p>Actualmente enfocado en Desarrollo Front End, optimización de experiencia de usuario (UX) y generación de impacto en la presencia digital de marcas.</p>
+            </div>
+            <div class="info-box">
+                <h3>Experiencia</h3>
+                <ol>
+                    <li>Invitaciones | The Website - Diseñador UX/UI y Diseñador web (2024 - Presente)</li>
+                    <li>The Website.cl - Diseñador UX/UI y Diseñador web (2015 - Presente)</li>
+                    <li>Nibiru Artistic Company - Traductor Audiovisual para Streaming & TV (2023 - 2024)</li>
+                    <li>Super Cell | Kaos Latin Gamers | Azules Esports - Diseñador Gráfico Esports (2018 - 2022)</li>
+                    <li>Universidad UNIACC - Profesor de práctica instrumental en Taller de fundamentos del Rock, Escuela de Música & Sonido (2014 - 2015)</li>
+                </ol>
+            </div>
+            <div class="info-box">
+                <h3>Formación</h3>
+                <ol>
+                    <li>Desarrollo Front End - Desafío Latam / Santiago, 2026 (cursando)</li>
+                    <li>Fundamentos de Python - Santander Open Academy / Santiago, 2025.</li>
+                    <li>Magister en Filosofía de la Ciencia - La Akademia / Santiago, 2017</li>
+                    <li>Música & Sonido con mención en Composición - Universidad UNIACC / Santiago, 2015.</li>
+                    <li>Técnico en Diseñador Gráfico - INACAP / Santiago, 2010.</li>
+                    <li>Enseñanza Media - Colegio Alicante Maipú / Santiago, 2007.</li>
+                    <li>Enseñanza Básica - Colegio Chileno Árabe / Concepción, 2003.</li>
+                </ol>
+            </div>
+            <div class="info-box">
+                <h3>Habilidades técnicas</h3>
+                <ul>
+                    <li>Adobe Creative Suite - Figma</li>
+                    <li>Wordpress - Elementor - Cpanel</li>
+                    <li>Google Ads - Google Analytics - Google Tag Manager</li>
+                    <li>Excel - Word</li>
+                </ul>
+            </div>
+            <div class="info-box">
+                <h3>Habilidades blandas</h3>
+                <ul>
+                    <li>Liderazgo creativo</li>
+                    <li>Comunicación efectiva</li>
+                    <li>Resolución de problemas</li>
+                    <li>Trabajo colaborativo</li>
+                    <li>Pensamiento estratégico</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Fernando González Díaz | 2025</p>
     </footer>
 </body>
 </html>
